@@ -10,72 +10,52 @@
  */
 
 export const termsOfService = {
-  effectiveDate: 'September 1, 2026',
+  effectiveDate: 'November 9, 2026',
 
   sections: [
     {
       heading: 'Acceptance of Terms',
       content: [
-        'By accessing or using our website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.',
+        'By commissioning services or accessing the Glamkalai website, you agree to comply with and be bound by these Terms of Service. If you do not agree to these terms, please do not use our services or website.',
       ],
     },
     {
-      heading: 'Services',
+      heading: 'Scope of Services',
       content: [
-        'We provide general contracting, repair, installation, inspection, remodeling, and maintenance services as described on our website. All services are subject to availability and may vary by location.',
-        'Specific terms for individual projects — including scope of work, timelines, and pricing — will be outlined in a separate written estimate or contract provided before work begins.',
+        'Glamkalai provides professional book proofreading, non-destructive optical digitization, OCR text conversion, bibliographic metadata extraction, digital archive maintenance, and eBook publishing preparation.',
+        'Each commission is governed by an agreed statement of work detailing specific deliverables, file formats, resolution parameters, delivery timelines, and pricing.',
       ],
     },
     {
-      heading: 'Estimates & Pricing',
+      heading: 'Intellectual Property & Copyright',
       content: [
-        'Estimates are provided based on the information available at the time of assessment. Actual costs may vary if unforeseen conditions are discovered during the course of work. We will communicate any changes to scope or pricing before proceeding.',
-        'Payment terms, accepted methods, and any deposit requirements will be specified in your individual service agreement.',
+        'Clients retain 100% ownership and copyright of all manuscripts, literary works, and archival materials submitted to Glamkalai. Glamkalai claims no intellectual property rights over any client content processed or digitized.',
+        'Clients represent and warrant that they possess the legal authority, copyright, or appropriate licensing to digitize, proofread, or reproduce the materials provided.',
       ],
     },
     {
-      heading: 'Scheduling & Cancellations',
+      heading: 'Handling of Physical Books & Materials',
       content: [
-        'We make every effort to arrive within the scheduled time window. However, service times may occasionally shift due to weather, prior job complexity, or emergency calls.',
-        'If you need to reschedule or cancel an appointment, please contact us at least 24 hours in advance. Cancellation fees may apply for missed appointments without adequate notice.',
+        'We exercise the highest standard of archival care with all books, manuscripts, and print collections. Our digitization equipment employs non-destructive V-cradle scanners and cold LED illumination designed specifically to protect fragile bindings and pages.',
+        'Clients are responsible for insured transit to and from our archival facilities unless white-glove transport is explicitly contracted.',
       ],
     },
     {
-      heading: 'Warranties & Guarantees',
+      heading: 'Quality Guarantee & Review Window',
       content: [
-        'We stand behind our workmanship and offer a satisfaction guarantee on all services performed. Specific warranty terms will be detailed in your service agreement.',
-        'Warranties do not cover damage caused by misuse, neglect, acts of nature, or modifications made by others after our work is completed.',
+        'We take pride in our 99.9% accuracy guarantee. Upon receipt of completed proofreading passes, digitized images, or metadata packages, clients have 14 calendar days to review deliverables and request revisions or corrections consistent with the original scope.',
       ],
     },
     {
       heading: 'Limitation of Liability',
       content: [
-        'To the fullest extent permitted by law, our total liability for any claim arising from our services shall not exceed the amount you paid for the specific service giving rise to the claim.',
-        'We are not liable for indirect, incidental, or consequential damages, including lost profits or data, even if we have been advised of the possibility of such damages.',
-      ],
-    },
-    {
-      heading: 'Intellectual Property',
-      content: [
-        'All content on this website — including text, images, logos, and design — is our property or used with permission and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without our written consent.',
-      ],
-    },
-    {
-      heading: 'Governing Law',
-      content: [
-        'These Terms of Service are governed by and construed in accordance with the laws of the state in which our business is registered, without regard to conflict of law principles.',
-      ],
-    },
-    {
-      heading: 'Changes to These Terms',
-      content: [
-        'We reserve the right to update these Terms of Service at any time. Changes will be posted on this page with a revised effective date. Your continued use of our website or services after changes are posted constitutes acceptance of the updated terms.',
+        'To the fullest extent permitted by applicable law, Glamkalai’s liability for any claim arising from our services shall be strictly limited to the fees paid by the client for the specific service in question.',
       ],
     },
     {
       heading: 'Contact Us',
       content: [
-        'If you have questions about these Terms of Service, please contact us using the information on our Contact page.',
+        'If you have any questions regarding these Terms of Service, please reach out to us at contact@glamkalai.com or visit our Contact page.',
       ],
     },
   ],

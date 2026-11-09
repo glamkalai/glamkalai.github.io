@@ -10,58 +10,47 @@
  */
 
 export const privacyPolicy = {
-  effectiveDate: 'September 1, 2026',
+  effectiveDate: 'November 9, 2026',
 
   sections: [
     {
       heading: 'Information We Collect',
       content: [
-        'We collect personal information that you voluntarily provide when you contact us, request a quote, or use our services. This may include your name, email address, phone number, mailing address, and details about the services you need.',
-        'We may also automatically collect certain technical information when you visit our website, including your IP address, browser type, referring URL, and pages visited. This data helps us improve our site and your experience.',
+        'At Glamkalai, we collect information that you voluntarily provide when requesting book proofreading, digitization, metadata extraction, or archive maintenance services. This includes your name, email address, institutional affiliation, telephone number, and project specifications.',
+        'When you submit manuscripts, rare books, or digital files for processing, we maintain strict confidentiality protocols. We treat all text, imagery, and proprietary data with the utmost discretion and never disclose client materials to unauthorized third parties.',
+      ],
+    },
+    {
+      heading: 'Manuscript & Archival Material Confidentiality',
+      content: [
+        'We understand the sensitivity of unpublished works, proprietary research, and rare institutional collections. All files, scans, and metadata records uploaded or provided to Glamkalai remain exclusively your intellectual property.',
+        'Our editorial staff and scanning technicians are bound by strict non-disclosure obligations. We never use client manuscripts for AI training, public indexing, or commercial redistribution.',
       ],
     },
     {
       heading: 'How We Use Your Information',
       content: [
-        'We use the information we collect to respond to your inquiries, schedule and provide our services, send appointment reminders and follow-ups, and process payments.',
-        'We may also use your information to send occasional updates about our services, promotions, or company news. You can opt out of these communications at any time by contacting us.',
+        'We use client information solely to fulfill service agreements, provide detailed quotes, deliver digitized assets and proofreading reports, communicate project progress, and manage invoicing.',
+        'Technical data collected automatically when visiting our website (such as browser type and referring URLs) is aggregated strictly to improve site performance and user experience.',
       ],
     },
     {
-      heading: 'Information Sharing',
+      heading: 'Data Security & Storage',
       content: [
-        'We do not sell, trade, or rent your personal information to third parties. We may share your information with trusted service providers who assist us in operating our business (such as payment processors or scheduling software), provided they agree to keep your information confidential.',
-        'We may also disclose your information when required by law, to protect our rights, or to comply with a legal process.',
+        'We employ enterprise-grade encryption for all file transfers and digital storage repositories. Physical book collections entrusted to our facility for digitization are kept in secure, climate-monitored environments.',
+        'Upon project completion and client sign-off, digital files are archived or securely expunged in accordance with the retention schedule agreed upon in your service contract.',
       ],
     },
     {
-      heading: 'Cookies & Tracking',
+      heading: 'Your Rights & Controls',
       content: [
-        'Our website may use cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and understand where our visitors come from. You can control cookie preferences through your browser settings.',
-      ],
-    },
-    {
-      heading: 'Data Security',
-      content: [
-        'We implement reasonable administrative, technical, and physical safeguards to protect your personal information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.',
-      ],
-    },
-    {
-      heading: 'Your Rights',
-      content: [
-        'You have the right to access, correct, or delete the personal information we hold about you. To exercise these rights, please contact us using the information provided below.',
-      ],
-    },
-    {
-      heading: 'Changes to This Policy',
-      content: [
-        'We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised effective date. We encourage you to review this policy periodically.',
+        'You have the right to request access to, modification of, or immediate deletion of your personal data and uploaded files at any time by contacting our privacy compliance team.',
       ],
     },
     {
       heading: 'Contact Us',
       content: [
-        'If you have questions or concerns about this Privacy Policy, please contact us using the information on our Contact page.',
+        'For questions or inquiries regarding our privacy standards or data handling practices, please contact us at contact@glamkalai.com or through our Contact page.',
       ],
     },
   ],

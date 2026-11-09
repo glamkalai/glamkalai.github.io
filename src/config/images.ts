@@ -50,8 +50,8 @@ export const aboutImage: ImageMetadata | undefined = undefined;
 // appear in the gallery automatically — no code changes needed.
 //
 // The file name becomes the alt text:
-//   kitchen-remodel.jpg    → "Kitchen Remodel"
-//   deck-installation.jpg  → "Deck Installation"
+//   rare-manuscript-scanning.jpg    → "Rare Manuscript Scanning"
+//   metadata-cataloging.jpg         → "Metadata Cataloging"
 //
 // Recommended: landscape images, at least 800 × 600 px each.
 // Aim for consistent proportions (4:3 works best with the gallery grid).
@@ -75,15 +75,32 @@ const discovered = Object.entries(
     .replace(/\b\w/g, (c) => c.toUpperCase()), // Title Case
 }));
 
-// Unsplash placeholders used when the gallery folder is empty.
-// Replace by adding your own images — the placeholders are removed automatically.
+// High-quality placeholders for book digitization, archival collections, and typography
 const placeholders: GalleryImage[] = [
-  { src: 'https://images.unsplash.com/photo-1772567732969-c1506edf80a0?w=600&q=80', alt: 'Completed kitchen renovation' },
-  { src: 'https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?w=600&q=80', alt: 'Bathroom remodel with modern fixtures' },
-  { src: 'https://images.unsplash.com/photo-1761166518480-49279513d65f?w=600&q=80', alt: 'Fresh landscaping and walkway installation' },
-  { src: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80', alt: 'Interior painting and trim work' },
-  { src: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80', alt: 'Electrical panel upgrade' },
-  { src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80', alt: 'Deck construction and staining' },
+  {
+    src: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80',
+    alt: 'Archival library book stacks and preservation',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&q=80',
+    alt: 'Vintage open book during digitization and inspection',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80',
+    alt: 'Detailed manuscript proofreading and typesetting review',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80',
+    alt: 'Digital cataloging and metadata indexing workstation',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80',
+    alt: 'Rare book conservation and non-destructive capture',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80',
+    alt: 'Academic volume digitization and digital preservation',
+  },
 ];
 
 export const galleryImages: GalleryImage[] = discovered.length > 0 ? discovered : placeholders;

@@ -1,50 +1,23 @@
 ---
-title: Deploying to Netlify
-description: Step-by-step instructions for deploying your small business website to Netlify for free.
-author: Team
-date: 2026-02-15
-tags: [guide, deployment]
+title: "Book Proofreading Essentials: Catching Errors Before Publication"
+description: "The critical difference between copyediting and proofreading, and why multi-pass editorial review is vital for authors and publishers."
+author: Elena Rostova
+date: 2026-03-05
+tags: [proofreading, editorial, publishing]
 draft: false
 ---
 
-This template is pre-configured for Netlify deployment. The `netlify.toml` file in the project root handles the build command, publish directory, and security headers automatically.
+In the lifecycle of book production, proofreading stands as the final quality checkpoint between the editorial desk and the printing press. While developmental editing refines plot and argument, and copyediting polishes style, proofreading ensures technical and typographical perfection.
 
-## Step-by-Step Deployment
+## What Professional Proofreading Covers
 
-### 1. Push to GitHub
+Professional proofreading involves line-by-line scrutiny of finalized manuscripts or digitized reprints to detect:
 
-If you have not already, create a GitHub repository and push your project:
+- **Typographical Oversights**: Subtle homophones, repeated words, and missed spelling anomalies that automated spellcheckers miss.
+- **Typesetting Anomalies**: Widows, orphans, incorrect hyphenation breaks, unnatural word spacing, and unintended font shifts.
+- **Punctuation & Syntax**: Consistency in quotation styles (curly vs. straight), em-dash formatting, ellipsis spacing, and capitalization rules.
+- **Layout & Numbering**: Accurate header-footer page number alignments, chapter heading consistency, and cross-reference validation with the table of contents.
 
-```bash
-git init
-git add -A
-git commit -m "Initial commit"
-git remote add origin https://github.com/your-username/your-repo.git
-git push -u origin main
-```
+## Human Expertise vs. Automated Tools
 
-### 2. Connect to Netlify
-
-1. Sign in to [Netlify](https://app.netlify.com)
-2. Click **Add new site** then **Import an existing project**
-3. Select your GitHub repository
-4. Netlify will auto-detect the build settings from `netlify.toml`
-5. Click **Deploy site**
-
-### 3. Set Your Custom Domain
-
-Once deployed, go to **Domain management** in your Netlify dashboard and add your custom domain. Netlify provides free HTTPS certificates automatically.
-
-### 4. Update Your Site URL
-
-After setting your domain, update the `site` field in `astro.config.mjs` and the `url` field in `src/data/siteData.ts` to match your production URL. This ensures sitemaps, canonical URLs, and structured data all point to the right place.
-
-## Contact Form
-
-The contact form uses Netlify Forms, which works automatically when you deploy to Netlify. No extra configuration needed — submissions appear in your Netlify dashboard under **Forms**.
-
-## Continuous Deployment
-
-Every time you push to your main branch, Netlify will automatically rebuild and deploy your site. Typical build times are under 5 seconds.
-
-That is it — your site is live!
+While automated grammar checkers and AI scanners can catch superficial mistakes, they frequently introduce contextual errors or overlook typesetting nuances. Glamkalai’s editorial proofreaders combine algorithmic initial passes with rigorous human eye review, guaranteeing your book meets the highest standards of literary craftsmanship.

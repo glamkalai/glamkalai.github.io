@@ -13,36 +13,36 @@
 
 export const siteData = {
   // ── Business identity ────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
+  name: 'Glamkalai',
+  tagline: 'Preserving Knowledge, Perfecting Words.',
   description:
-    'A fast, mobile-first small-business website template built with Astro 7 and Tailwind v4. Fully customisable for any trade or service business.',
-  url: 'https://example.com',
+    'Professional book proofreading, archival digitization, metadata extraction, and digital catalog maintenance services for authors, publishers, libraries, and cultural archives.',
+  url: 'https://glamkalai.github.io',
   locale: 'en_US',
 
   /** Business / contractor license number. Displayed in the header and footer
    *  as a trust signal. Set to an empty string to hide it. */
-  license: 'Lic# 123456',
+  license: 'Archival & Editorial Standards Compliant',
 
   // ── Contact ──────────────────────────────────────────────────────────────
-  email: 'hello@example.com',
-  phoneForTel: '555-867-5309',
-  phoneFormatted: '(555) 867-5309',
+  email: 'contact@glamkalai.com',
+  phoneForTel: '+1-800-555-0199',
+  phoneFormatted: '(800) 555-0199',
   address: {
-    lineOne: '123 Main Street',
-    lineTwo: 'Suite 100',
-    city: 'Denver',
-    state: 'CO',
-    zip: '80206',
+    lineOne: 'Library & Archival Center',
+    lineTwo: 'Suite 400',
+    city: 'Boston',
+    state: 'MA',
+    zip: '02108',
     country: 'US',
     mapLink: 'https://maps.app.goo.gl/example',
   },
   hours: [
-    { days: 'Monday - Friday', time: '7:00 AM - 6:00 PM' },
-    { days: 'Saturday', time: '8:00 AM - 2:00 PM' },
+    { days: 'Monday - Friday', time: '8:00 AM - 6:00 PM EST' },
+    { days: 'Saturday', time: '9:00 AM - 3:00 PM EST' },
     { days: 'Sunday', time: 'Closed' },
   ],
-  emergencyService: '24/7 Emergency Service Available',
+  emergencyService: 'Expedited Rush Proofreading & Digitization Available',
 
   // ── Social media (set to empty string to hide a link) ────────────────────
   socials: {
@@ -64,85 +64,142 @@ export const siteData = {
   // ── Services ─────────────────────────────────────────────────────────────
   services: [
     {
-      title: 'General Repairs',
+      title: 'Book Proofreading & Editorial Review',
       description:
-        'From leaky faucets to broken drywall, our team handles everyday repairs quickly and professionally. We diagnose the issue, explain your options, and get it fixed — no surprises on the bill.',
+        'Meticulous line-by-line editorial proofreading for manuscripts, rare reprints, academic publications, and translations. We catch typographical errors, grammatical inconsistencies, citation anomalies, and typesetting issues before publication.',
     },
     {
-      title: 'Installations',
+      title: 'Archival Book Digitization',
       description:
-        'New fixtures, appliances, water heaters, ceiling fans, and more. We ensure every installation is up to code, properly tested, and backed by our workmanship guarantee.',
+        'Non-destructive, high-resolution optical scanning for delicate books, manuscripts, periodicals, and rare collections. We capture every detail with archival color precision adhering to ISO preservation guidelines.',
     },
     {
-      title: 'Inspections',
+      title: 'Advanced OCR & Text Extraction',
       description:
-        'Comprehensive property inspections for homebuyers, sellers, and proactive homeowners. We identify potential issues before they become expensive emergencies.',
+        'Transform scanned book pages into clean, searchable, and fully editable digital text. Our specialized OCR pipeline handles complex multi-column typography, footnotes, archaic fonts, and multiple languages with high fidelity.',
     },
     {
-      title: 'Remodeling',
+      title: 'Bibliographic Metadata Extraction',
       description:
-        'Kitchen and bathroom remodels, basement finishing, and whole-home renovations. We manage the project from design through final walkthrough so you can enjoy the transformation.',
+        'Automated and curated metadata indexing for libraries and repositories. We extract and structure data conforming to MARC21, Dublin Core, MODS, and ONIX schemas, including ISBN, author authority, subjects, and table of contents.',
     },
     {
-      title: 'Emergency Service',
+      title: 'Digital Archive Maintenance & Preservation',
       description:
-        "Burst pipes, electrical outages, and other urgent problems don't wait — and neither do we. Our emergency line is staffed 24/7 for rapid response when you need it most.",
+        'Long-term preservation solutions for digital collections. We manage repository architecture, checksum audits, lossless file migration, and secure cloud backups to safeguard your digital heritage indefinitely.',
     },
     {
-      title: 'Maintenance Plans',
+      title: 'eBook Conversion & Digital Publishing',
       description:
-        'Regular preventive maintenance keeps your systems running efficiently and extends their lifespan. Ask about our seasonal service packages for year-round peace of mind.',
+        'Convert digitized texts into modern publishing standards including EPUB 3, Kindle KF8, accessible PDF/UA, and XML. Ready for distribution on global platforms with dynamic reflow and accessibility compliance.',
     },
   ],
 
   // ── Reviews ──────────────────────────────────────────────────────────────
   reviews: [
-    { quote: "They showed up on time, explained everything clearly, and finished the job faster than expected. Best service experience we've had.", name: 'Sarah M.', location: 'Denver, CO', rating: 5 },
-    { quote: "Honest pricing and top-notch work. I've used them for three different projects now and they never disappoint.", name: 'James R.', location: 'Aurora, CO', rating: 5 },
-    { quote: 'Our emergency call was answered in minutes. They had the problem fixed before dinner. Truly dependable.', name: 'Linda K.', location: 'Lakewood, CO', rating: 5 },
-    { quote: 'The remodel turned out even better than we imagined. Professional, clean, and on budget. We couldn\'t be happier.', name: 'Tom & Beth P.', location: 'Boulder, CO', rating: 5 },
-    { quote: 'Great communication from start to finish. They sent photos of the progress and cleaned up perfectly when done.', name: 'Anita W.', location: 'Littleton, CO', rating: 5 },
-    { quote: "I appreciate the upfront pricing — no hidden fees or surprise charges. That's rare these days. Highly recommend.", name: 'Marcus D.', location: 'Arvada, CO', rating: 5 },
+    {
+      quote:
+        "Glamkalai digitized our university's special collection of 19th-century manuscripts with breathtaking fidelity and flawless metadata tagging. Truly exceptional craftsmanship.",
+      name: 'Dr. Eleanor Vance',
+      location: 'University Archives, MA',
+      rating: 5,
+    },
+    {
+      quote:
+        'The proofreading team caught subtle grammatical and typography errors that two previous editorial rounds overlooked. Our latest volume went to print with complete peace of mind.',
+      name: 'Marcus Thorne',
+      location: 'Historical Press Author',
+      rating: 5,
+    },
+    {
+      quote:
+        'Their metadata extraction pipeline saved our cataloging team months of manual labor. Every record arrived structured in MARC21 and Dublin Core formats without a hitch.',
+      name: 'Siddharth Raman',
+      location: 'Digital Library Director',
+      rating: 5,
+    },
+    {
+      quote:
+        'Fast turnaround on high-resolution scanning without risking binding or spine strain. Their non-destructive equipment is second to none for rare print conservation.',
+      name: 'Claire Beauchamp',
+      location: 'Heritage Conservation Trust',
+      rating: 5,
+    },
+    {
+      quote:
+        'From OCR transcription cleanup to routine maintenance of our digital repository, Glamkalai is an indispensable partner for our academic publishing house.',
+      name: 'David K. Lindqvist',
+      location: 'Academic Press Publisher',
+      rating: 5,
+    },
+    {
+      quote:
+        'Clear project communication, transparent pricing, and remarkable attention to detail on every digitized page. They set the gold standard in book preservation.',
+      name: 'Amina Al-Mansoor',
+      location: 'Literary Foundation',
+      rating: 5,
+    },
   ],
 
   // ── About page ───────────────────────────────────────────────────────────
   about: {
     story: [
-      'What started as a one-person operation has grown into a trusted local team. For over 15 years, we\'ve served homeowners and businesses with reliable, high-quality work — and we plan to keep doing just that for decades to come.',
-      'Every member of our crew is licensed, insured, and background-checked. We treat your property with the same care we\'d give our own, and we stand behind every job with a satisfaction guarantee.',
+      'Founded with a deep commitment to literary heritage and cultural preservation, Glamkalai bridges the physical world of print with modern digital accessibility. We partner with authors, independent publishers, university libraries, and archival institutions to protect, digitize, and perfect the written word.',
+      'Our team comprises seasoned editorial proofreaders, archival scanning specialists, and metadata engineers. Utilizing state-of-the-art non-destructive scanners and rigorous editorial workflows, we ensure that every digitized book and manuscript maintains historical integrity while gaining modern digital discoverability.',
     ],
     team: [
-      { name: 'John Smith', role: 'Founder & Lead Technician', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80' },
-      { name: 'Maria Garcia', role: 'Operations Manager', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80' },
-      { name: 'David Chen', role: 'Senior Technician', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80' },
+      {
+        name: 'Anwar Kalai',
+        role: 'Founder & Archival Director',
+        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+      },
+      {
+        name: 'Elena Rostova',
+        role: 'Lead Editorial Proofreader',
+        image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80',
+      },
+      {
+        name: 'Marcus Vance',
+        role: 'Metadata & Information Architect',
+        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+      },
     ],
   },
 
   // ── Trust bar items (homepage strip) ─────────────────────────────────────
   trustItems: [
-    { label: 'Licensed' },
-    { label: 'Fully Insured' },
-    { label: 'Years Experience', value: '15+' },
-    { label: 'Jobs Completed', value: '2,500+' },
+    { label: 'Archival Standard', value: 'ISO' },
+    { label: 'Accuracy Guarantee', value: '99.9%' },
+    { label: 'Books Preserved', value: '50,000+' },
+    { label: 'Years Experience', value: '12+' },
   ],
 
   // ── Footer nav columns ──────────────────────────────────────────────────
   footerNav: [
     {
+      title: 'Services',
+      links: [
+        { label: 'Book Proofreading', href: '/services' },
+        { label: 'Archival Digitization', href: '/services' },
+        { label: 'Metadata Extraction', href: '/services' },
+        { label: 'Archive Maintenance', href: '/services' },
+      ],
+    },
+    {
       title: 'Company',
       links: [
-        { label: 'About', href: '/about' },
-        { label: 'Services', href: '/services' },
-        { label: 'Reviews', href: '/reviews' },
-        { label: 'Blog', href: '/blog' },
+        { label: 'About Glamkalai', href: '/about' },
+        { label: 'Client Reviews', href: '/reviews' },
+        { label: 'Blog & Insights', href: '/blog' },
+        { label: 'Contact Us', href: '/contact' },
       ],
     },
     {
       title: 'Support',
       links: [
         { label: 'Contact', href: '/contact' },
-        { label: 'Privacy', href: '/privacy' },
-        { label: 'Terms', href: '/terms' },
+        { label: 'Privacy Policy', href: '/privacy' },
+        { label: 'Terms of Service', href: '/terms' },
       ],
     },
   ],

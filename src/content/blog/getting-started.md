@@ -1,42 +1,29 @@
 ---
-title: Getting Started with This Template
-description: A quick guide to setting up your new small business website using this Astro template.
-author: Team
-date: 2026-01-15
-tags: [guide, setup]
+title: The Standard for Archival Book Digitization
+description: A comprehensive look into non-destructive scanning, color fidelity, and long-term digital preservation for rare books and print archives.
+author: Anwar Kalai
+date: 2026-02-10
+tags: [digitization, preservation, archival]
 draft: false
 ---
 
-Welcome to your new small business website! This template is designed to get you online fast with a professional, mobile-first site that loads in under a second.
+Preserving literary collections requires more than just photographing pages; it demands an uncompromising adherence to international archival standards. At Glamkalai, non-destructive digitization balances high-resolution capture with physical conservation.
 
-## Quick Setup
+## The Principles of Non-Destructive Scanning
 
-1. Clone the repository
-2. Run `pnpm install` to install dependencies
-3. Run `pnpm dev` to start the development server
-4. Open `http://localhost:4321` in your browser
+When digitizing rare volumes, aged periodicals, or brittle manuscripts, standard flatbed scanning is hazardous because it exerts unnatural pressure on the spine and binding. Modern archival digitization employs:
 
-## Customise Your Business Info
+- **V-Cradle Scanning Beds**: Supporting books at natural 100° to 120° angles to prevent structural strain on ancient bindings.
+- **Cold LED Illumination**: Eliminating infrared radiation and harmful heat that could dry out paper fibers or accelerate ink degradation.
+- **Glass-Free or Low-Tension Platen Support**: Ensuring uniform focus without pressing directly against fragile leaves.
 
-Everything you need to change lives in one file: `src/data/siteData.ts`. Open it and update your business name, phone number, email, address, services, reviews, and team members.
+## Resolution and Master TIFF Preservation
 
-## Change the Look
+Every scanned page is captured in uncompressed, high-bit-depth master TIFFs conforming to ISO and FADGI preservation standards. These digital masters retain full-tonal fidelity, accurate color profiles, and microscopic paper texture details.
 
-- **Colours & radius** — edit `src/styles/theme.css` (the `@theme` block). This is the single source of truth; Tailwind auto-generates utility classes from it.
-- **Fonts** — update the font names in `src/config/brand.ts` and the `fonts` array in `astro.config.mjs`.
+From these archival masters, derivative formats are generated:
+- High-resolution searchable PDFs for institutional research
+- Optimized EPUB 3 editions for mobile readers
+- Compact web-ready previews for digital repository browsing
 
-## Add Your Images
-
-Drop your photos into the folders under `src/assets/images/`:
-
-- `hero/` — your main homepage image
-- `about/` — a photo of your team or workspace
-- `gallery/` — project photos (as many as you like)
-
-Then update `src/config/images.ts` to point to your new files. Until you add your own, the template uses placeholder images.
-
-## Deploy
-
-This template is pre-configured for Netlify. Push your repo to GitHub and connect it in Netlify — the `netlify.toml` file handles the rest.
-
-Happy building!
+Preserving physical books through meticulous digitization ensures our collective intellectual heritage remains accessible to future generations.
